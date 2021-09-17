@@ -13,6 +13,7 @@
     <!-- css styles -->
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <script src="./app.js" defer></script>
   </head>
   <body>
     <!-- ******** content start ******** -->
@@ -25,6 +26,7 @@
         <!-- nav icon -->
         <img src="./images/logo.svg" alt="" />
         <!-- toggle -->
+        <div class="nav-links-triangle"></div>
         <img src="./images/icon-hamburger.svg" alt="" class="toggle-btn"/>
         <!-- nav links start -->
 
@@ -45,10 +47,12 @@
                           header start 
       ================================================-->
       <header>
+
         <h1 class="header-title">We are creatives</h1>
         <!-- arrow down -->
-        <img src="./images/icon-arrow-down.svg" alt="" />
-        <img src="./images/" alt="" />
+        <img src="./images/icon-arrow-down.svg" alt="" class="arrow-down"/>
+        <img src="./images/mobile/image-header.jpg" alt="" class="header-image">
+
       </header>
       <!--
       ================================================
@@ -64,17 +68,15 @@
         <!-- -------------- transform start  ------------------- -->
         <div class="transform-utility">
           <!-- utility image -->
-          <div class="transform-image">
-            <img
+              <img
               src="./images/desktop/image-transform.jpg"
               alt="transform-image"
+              class="transform-image"
             />
-          </div>
           <!-- utility image end-->
           <!-- utility text -->
           <div class="transform-text">
             <strong class="transform-heading"> Transform your brand </strong>
-
             <p class="transform-desc">
               We are a full-service creative agency specializing in helping
               brands grow fast. Engage your clients through compelling visuals
@@ -89,12 +91,12 @@
         <!-- -------------- audience start ------------------- -->
         <div class="audience-utility">
           <!-- utility image -->
-          <div class="transform-image">
+          
             <img
               src="./images/desktop/image-stand-out.jpg"
               alt="transform-image"
+              class="audience-image"
             />
-          </div>
           <!-- utility image end-->
           <!-- utility text -->
           <div class="audience-text">
@@ -124,7 +126,7 @@
         <!-- -------------- graphic end ------------------- -->
 
         <!-- -------------- photography start ------------------- -->
-        <div class="photography">
+        <div class="photography-section">
           <strong class="photography-heading"> Photography </strong>
           <p class="photography-desc">
             Increase your credibility by getting the most stunning, high-quality
@@ -147,7 +149,7 @@
         <strong class="review-heading">Client testimonials</strong>
         <!-- review-1 -->
         <div class="review review-1">
-          <img src="./images/image-emily.jpg" alt="user-image" />
+          <img src="./images/image-emily.jpg" alt="user-image" class ='user-image'/>
           <p class="user-review">
             We put our trust in Sunnyside and they delivered, making sure our
             needs were met and deadlines were always hit.
@@ -157,7 +159,7 @@
         </div>
         <!-- review-2 -->
         <div class="review review-2">
-          <img src="./images/image-thomas.jpg" alt="user-image" />
+          <img src="./images/image-thomas.jpg" alt="user-image" class ='user-image'/>
           <p class="user-review">
             Sunnyside’s enthusiasm coupled with their keen interest in our
             brand’s success made it a satisfying and enjoyable experience.
@@ -167,7 +169,7 @@
         </div>
         <!-- review3 -->
         <div class="review review-3">
-          <img src="./images/image-thomas.jpg" alt="user-image" />
+          <img src="./images/image-jennie.jpg" alt="user-image" class ='user-image'/>
           <p class="user-review">
             Incredible end result! Our sales increased over 400% when we worked
             with Sunnyside. Highly recommended!
@@ -175,35 +177,47 @@
           <strong class="review-user-name"> Jennie F. </strong>
           <p class="review-user-job">Business Owner</p>
         </div>
-        <!-- ----------- images ----------- -->
-        <div class="review-gallery">
-          <img
-            src="./images/mobile/image-gallery-milkbottles.jpg"
-            alt="milkbottles"
-            class="review-image"
-          />
-          <img
-            src="./images/mobile/image-gallery-orange.jpg"
-            alt="milkbottles"
-            class="review-image"
-          />
-          <img
-            src="./images/mobile/image-gallery-cone.jpg"
-            alt="milkbottles"
-            class="review-image"
-          />
-          <img
-            src="./images/mobile/image-gallery-sugar-cubes.jpg"
-            alt="milkbottles"
-            class="review-image"
-          />
-        </div>
-      </section>
-      <!-- ----------- images end ----------- -->
-      <!--
+              <!--
       ================================================
                           review end 
       ================================================-->
+        
+            <!--
+      ================================================
+                          gallery start 
+      ================================================-->
+        <div class="gallery">
+          <!-- image - 1 -->
+          <img
+            src="./images/mobile/image-gallery-milkbottles.jpg"
+            alt="milkbottles"
+            class="gallery-image"
+          />
+          <!-- image - 2 -->
+          <img
+            src="./images/mobile/image-gallery-orange.jpg"
+            alt="milkbottles"
+            class="gallery-image"
+          />
+          <!-- image - 3 -->
+          <img
+            src="./images/mobile/image-gallery-cone.jpg"
+            alt="milkbottles"
+            class="gallery-image"
+          />
+          <!-- image - 4 -->
+          <img
+            src="./images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="milkbottles"
+            class="gallery-image"
+          />
+        </div>
+      </section>
+            <!--
+      ================================================
+                          gallery end 
+      ================================================-->
+
       <!--
       ================================================
                           footer start 
@@ -237,3 +251,4 @@
     <!-- ******** content end ******** -->
   </body>
 </html>
+<!-- coded by Azka norouzi -->

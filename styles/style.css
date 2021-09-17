@@ -10,16 +10,24 @@
 /* ========================== */
      /* defaults STYLES */
 /* ========================== */
-@import './default.css';
+@import './header.css';
 /* ========================== */
      /* defaults STYLES */
 /* ========================== */
-@import './default.css';
+@import './utilities.css';
+/* ========================== */
+     /* image gallery STYLES */
+/* ========================== */
+@import './image-gallery.css';
+/* ========================== */
+     /* footer STYLES */
+/* ========================== */
+@import './footer.css';
 /* ========================== */
      /* defaults STYLES */
 /* ========================== */
-@import './default.css';
+@import './reviews.css';
 /* ========================== */
-     /* Font families */
+     /* Fonts */
 /* ========================== */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
