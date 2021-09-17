@@ -24,10 +24,22 @@
 /* ========================== */
 @import './footer.css';
 /* ========================== */
-     /* defaults STYLES */
+     /* review STYLES */
 /* ========================== */
 @import './reviews.css';
 /* ========================== */
      /* Fonts */
 /* ========================== */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+/*******************************/
+     /* Media queries */
+/*******************************/
+/* ========================== */
+/* Medium screen size devices (768px And more) */
+/* ========================== */
+@import url('./media-queries/medium-devices.css');
+/* ========================== */
+/* Large screen size devices (991px And more) */
+/* ========================== */
+@import url('./media-queries/large-devices.css');

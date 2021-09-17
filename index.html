@@ -31,10 +31,10 @@
         <!-- nav links start -->
 
         <ul class="nav-links">
-          <li class="nav-link"><a href="#">About</a></li>
-          <li class="nav-link"><a href="#">Services</a></li>
-          <li class="nav-link"><a href="#">Projects</a></li>
-          <li class="nav-link"><a href="#">Contact</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#services">Services</a></li>
+          <li class="nav-link"><a href="#projects">Projects</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
         </ul>
         <!-- nav links end -->
       </nav>
@@ -51,7 +51,9 @@
         <h1 class="header-title">We are creatives</h1>
         <!-- arrow down -->
         <img src="./images/icon-arrow-down.svg" alt="" class="arrow-down"/>
-        <img src="./images/mobile/image-header.jpg" alt="" class="header-image">
+        <!-- small screens image -->
+        <img src="./images/mobile/image-header.jpg" alt="" class="header-image header-image-mobile">
+        <img src="./images/desktop/image-header.jpg" alt="" class="header-image header-image-desktop">
 
       </header>
       <!--
@@ -64,14 +66,19 @@
                           utilities start 
       ================================================-->
 
-      <section class="utilities">
+      <section class="utilities" id="about">
         <!-- -------------- transform start  ------------------- -->
         <div class="transform-utility">
           <!-- utility image -->
               <img
+              src="./images/mobile/image-transform.jpg"
+              alt="transform-image"
+              class="transform-image transform-image-mobile"
+            />
+              <img
               src="./images/desktop/image-transform.jpg"
               alt="transform-image"
-              class="transform-image"
+              class="transform-image transform-image-desktop"
             />
           <!-- utility image end-->
           <!-- utility text -->
@@ -93,10 +100,16 @@
           <!-- utility image -->
           
             <img
+              src="./images/mobile/image-stand-out.jpg"
+              alt="transform-image"
+              class="audience-image audience-image-mobile"
+            />
+            <img
               src="./images/desktop/image-stand-out.jpg"
               alt="transform-image"
-              class="audience-image"
+              class="audience-image audience-image-desktop"
             />
+
           <!-- utility image end-->
           <!-- utility text -->
           <div class="audience-text">
@@ -115,7 +128,7 @@
         <!-- -------------- audience end ------------------- -->
 
         <!-- -------------- graphic start ------------------- -->
-        <div class="graphic-design-section">
+        <div class="graphic-design-section" id="services">
           <strong class="graphic-heading"> Graphic design </strong>
           <p class="graphic-desc">
             Great design makes you memorable. We deliver artwork that
@@ -144,7 +157,7 @@
       ================================================
                           review start 
       ================================================-->
-      <section class="review-section">
+      <section class="review-section" id="projects">
         <!-- heading -->
         <strong class="review-heading">Client testimonials</strong>
         <!-- review-1 -->
@@ -177,6 +190,7 @@
           <strong class="review-user-name"> Jennie F. </strong>
           <p class="review-user-job">Business Owner</p>
         </div>
+        </section>
               <!--
       ================================================
                           review end 
@@ -186,33 +200,52 @@
       ================================================
                           gallery start 
       ================================================-->
-        <div class="gallery">
+        <section class="gallery">
           <!-- image - 1 -->
           <img
             src="./images/mobile/image-gallery-milkbottles.jpg"
-            alt="milkbottles"
-            class="gallery-image"
+            alt="img"
+            class="gallery-image gallery-image-mobile"
+          />
+          <img
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt="img"
+            class="gallery-image gallery-image-desktop"
           />
           <!-- image - 2 -->
           <img
             src="./images/mobile/image-gallery-orange.jpg"
-            alt="milkbottles"
-            class="gallery-image"
+            alt="img"
+            class="gallery-image gallery-image-mobile"
+          />
+          <img
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt="img"
+            class="gallery-image gallery-image-desktop"
           />
           <!-- image - 3 -->
           <img
             src="./images/mobile/image-gallery-cone.jpg"
-            alt="milkbottles"
-            class="gallery-image"
+            alt="img"
+            class="gallery-image gallery-image-mobile"
+          />
+          <img
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt="img"
+            class="gallery-image gallery-image-desktop"
           />
           <!-- image - 4 -->
           <img
             src="./images/mobile/image-gallery-sugar-cubes.jpg"
-            alt="milkbottles"
-            class="gallery-image"
+            alt="img"
+            class="gallery-image gallery-image-mobile"
           />
-        </div>
-      </section>
+          <img
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt="img"
+            class="gallery-image gallery-image-desktop"
+          />
+        </section>
             <!--
       ================================================
                           gallery end 
@@ -222,24 +255,23 @@
       ================================================
                           footer start 
       ================================================-->
-      <footer>
+      <footer id="contact">
         <!-- footer logo -->
-        <img src="./images/logo.svg" alt="" />
+        <img src="./images/logo.svg" alt="" class="footer-logo"/>
         <!-- footer links -->
         <ul class="footer-links">
           <li class="footer-link"><a href="#"> About </a></li>
           <li class="footer-link"><a href="#"> Services </a></li>
           <li class="footer-link"><a href="#"> Projects </a></li>
-          <li class="footer-link"><a href="#"> Contact </a></li>
         </ul>
         <!-- footer links end -->
 
         <!-- social icons -->
         <div class="social-icons">
-          <img src="./images/icon-facebook.svg" alt="facebook" />
-          <img src="./images/icon-instagram.svg" alt="instagram" />
-          <img src="./images/icon-twitter.svg" alt="twitter" />
-          <img src="./images/icon-pinterest.svg" alt="pinterest" />
+          <a href="#"> <img src="./images/icon-facebook.svg" alt="facebook"  class="social-icon"/> </a>
+          <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"  class="social-icon"/></a>
+          <a href="#"><img src="./images/icon-twitter.svg" alt="twitter"  class="social-icon"/></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"  class="social-icon"/></a>
         </div>
         <!-- end social icons -->
       </footer>

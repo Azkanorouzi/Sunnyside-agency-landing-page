@@ -1,4 +1,8 @@
 /* ------------- reviews -------------- */
+/* review container */
+.review-section{
+margin-bottom: 5rem;
+}
 /* main heading */
 .review-heading{
 text-align: center;

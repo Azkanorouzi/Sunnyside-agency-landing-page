@@ -13,11 +13,14 @@ body{
  min-height: 100vh;
  min-width: 100vw !important;
  background-color: white;
-
 }
 /* prevent from horizontal scroll bar causing by menu */
 main{
  width: 100%;
   overflow-x: hidden;
+}
+/* smooth scrolling */
+html{
+ scroll-behavior: smooth;
 }
 /* ------------- end -------------- */

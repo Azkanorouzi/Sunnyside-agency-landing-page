@@ -1,5 +1,8 @@
 /* ------------- utilities -------------- */
 /* utilities images */
+.transform-image-desktop,.audience-image-desktop{
+display: none;
+}
 .transform-image,.audience-image{
 width: 100vw;
 height: 390px;

@@ -8,4 +8,7 @@
 .gallery-image{
 width: 100%;
 }
+.gallery-image-desktop{
+ display: none;
+}
 /* ------------- gallery end -------------- */

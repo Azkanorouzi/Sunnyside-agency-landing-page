@@ -15,6 +15,9 @@ header{
  text-transform: uppercase;
 }
 /* header images */
+.header-image-desktop {
+  display: none;
+}
 .header-image{
  width: 100%;
  position: absolute;
